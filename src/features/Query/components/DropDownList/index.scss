@@ -1,0 +1,52 @@
+.list {
+  border-radius: 10px;
+  background-color: #eef8ff;
+  border: 1px solid #afafaf;
+
+  &-small {
+    position: absolute;
+    width: 117px;
+    height: 178px;
+    top: 143px;
+    left: 96px;
+  }
+
+  &-large {
+    position: absolute;
+    width: 140px;
+    height: 359px;
+    top: 143px;
+    left: 266px;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    height: 35px;
+    font-size: 14px;
+    color: #000;
+    border-bottom: 1px solid #b7b7b7;
+    transition: 0.3s ease;
+
+    &:last-child {
+      border: none;
+    }
+
+    &:hover {
+      background-color: #8bb0cc;
+
+      &:first-child {
+        border-radius: 10px 10px 0 0;
+      }
+
+      &:last-child {
+        border-radius: 0 0 10px 10px;
+      }
+    }
+  }
+
+  &__checkmark {
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,46 @@
+.authblock {
+  margin-right: 10px;
+  padding: 13px 10px;
+
+  &__reg-btn,
+  &__login-btn {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    transition: 0.3s ease-in;
+
+    &:hover {
+      color: #ac75fd;
+    }
+  }
+
+  &__line {
+    position: absolute;
+    width: 2px;
+    height: 30px;
+    background-color: #fff;
+    top: 24px;
+  }
+
+  &__reg-btn {
+    margin-right: 10px;
+  }
+
+  &__login-btn {
+    margin-left: 10px;
+  }
+
+  &__triangle {
+    display: inline-block;
+    margin-left: 5px;
+    width: 0;
+    height: 0;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-top: 7px solid #fff;
+    vertical-align: middle;
+  }
+}
