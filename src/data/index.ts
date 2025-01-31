@@ -71,13 +71,7 @@ export const authData: DataType[] = [
     password: 'twitpass',
     sha256: 'u9i0o1p2a3s4d5f6g7h8j9k0l1z2x3c4',
   },
-  {
-    url: 'http://instagram.com',
-    domain: 'instagram.com',
-    user: 'user5',
-    password: 'instapass',
-    sha256: 'v5b6n7m8j9k0l1z2x3c4v5b6n7m8j9k0',
-  },
+
   {
     url: 'https://youtube.com',
     domain: 'youtube.com',
